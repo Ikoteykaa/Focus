@@ -1,0 +1,14 @@
+ul{
+    list-style-type:none;
+}
+button,button::after{
+    cursor: pointer;
+}
+button{
+    cursor:alias;
+}
+body{
+    font-family:"Roboto",sans-serif;
+}
+.header{background-color: #9b28af;}
+header{background-color: #961a3d;}
