@@ -26,7 +26,7 @@ h4,
 h5,
 h6,
 p{
-margin: 0;
+ margin: 0;
 }
 
 section {
@@ -42,9 +42,9 @@ img {
 }
 
 .container {
-    margin: 0 auto;
-    padding: 0 15px;
-     width: 1158px;
+margin: 0 auto;
+padding: 0 15px;
+width: 1158px;
 }
 /* #region header */
 .container-header{
@@ -156,28 +156,28 @@ background-color:#404bbf;
   
 }
 .info-list{
-    display: flex;
-    gap: 24px;
-    align-items: stretch;
-    flex-wrap: wrap;
+display: flex;
+gap: 24px;
+align-items: stretch;
+flex-wrap: wrap;
 }
 .info-list-item{ 
-    max-width: 264px;
-    width: calc((100% - 72px) / 4);
-     box-sizing: border-box;
+max-width: 264px;
+width: calc((100% - 72px)/4);
+box-sizing: border-box;
 }
 .info-title{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-letter-spacing: 0.02em;
+letter-spacing: 0.01em;
 color: #2e2f42;
 margin-bottom: 8px;
 } 
 .text-list-info{
 font-weight: 400;
 line-height: 1.5;
-letter-spacing: 0.02em;
+letter-spacing: 0.01em;
 color: #434455;
 word-break: break-word;
 }
@@ -233,7 +233,7 @@ color: #434455;
 /* #endregion our-team-section */
 /* #region our-potfolio */
 .our-portfolio-section {
-
+ 
 }
 .container {
 
