@@ -44,7 +44,7 @@ img {
 .container {
     margin: 0 auto;
     padding: 0 15px;
-    width: 1158px;
+     width: 1158px;
 }
 /* #region header */
 .container-header{
@@ -153,13 +153,18 @@ background-color:#404bbf;
 /* #endregion effective */ 
 /* #region info-section */
 .info-section{
+  
 }
 .info-list{
     display: flex;
     gap: 24px;
+    align-items: stretch;
+    flex-wrap: wrap;
 }
-.info-list-item{
-     width: calc((100%-72px)/4);
+.info-list-item{ 
+    max-width: 264px;
+    width: calc((100% - 72px) / 4);
+     box-sizing: border-box;
 }
 .info-title{
 font-weight: 500;
@@ -174,7 +179,8 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-
+word-break: break-word;
+hyphens: auto;
 }
 /* #endregion info-section */
 /* #region our-team-section */
@@ -182,7 +188,7 @@ color: #434455;
  background: #f4f4fd;
 }
 .containers-our-team-section {
- padding: 120px 0;
+   
 }
 .container-our-team{
     padding: 32px;
@@ -190,12 +196,13 @@ color: #434455;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .title-our-team {
-font-weight: 700;
-font-size: 36px; 
-line-height: 1.1;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
+ font-weight: 700;
+ font-size: 36px; 
+ line-height: 1.1;
+ letter-spacing: 0.02em;
+ text-align: center;
+ color: #2e2f42;
+ margin-bottom: 72px;
 }
 .our-team-list {
     display: flex;
@@ -224,6 +231,38 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
 }
+/* #region our-potfolio */
+.our-portfolio-section {
+
+}
+.container {
+
+}
+.containers-our-portfolio-section {
+
+}
+.title-our-portfolio {
+
+}
+.our-portfolio-list {
+
+}
+.our-portfolio-item {
+
+}
+.img-our-portfolio {
+
+}
+.container-our-portfolio {
+
+}
+.name-our-portfolio {
+
+}
+.text-our-portfolio {
+
+}
+/* #endregion our-potfolio*/
 /* #endregion our-team-section */
 /* #region footer */
 footer{
@@ -242,6 +281,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #f4f4fd;
+
 }
 .footer-text{
 font-weight: 400;
@@ -249,6 +289,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 width: 264px;
+margin-top: 16px;
 }
 /* #endregion footer */
 
