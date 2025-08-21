@@ -235,16 +235,22 @@ color: #434455;
 .our-portfolio-section {
  
 }
-.container {
-
-}
 .containers-our-portfolio-section {
 
 }
 .title-our-portfolio {
-
+font-weight: 700;
+font-size: 36px; 
+line-height: 1.1;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+margin-bottom: 72px;
 }
 .our-portfolio-list {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 24px;
 
 }
 .our-portfolio-item {
@@ -254,12 +260,25 @@ color: #434455;
 
 }
 .container-our-portfolio {
-
+margin-bottom: 24px;
+border: 1px solid #E7E9FC;
+border-top: none;
+padding: 32px 16px;
 }
 .name-our-portfolio {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+margin-bottom: 8px;
 
 }
 .text-our-portfolio {
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 
 }
 /* #endregion our-potfolio*/
